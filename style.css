@@ -1,0 +1,46 @@
+/* */
+
+body {
+    background-color: #1F2937;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap: 10px
+
+}
+
+header, .
+
+.inspiring-quote {
+    background-color: #e5e7eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 216px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 216px;
+}
+
+.text-main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    
+
+}
