@@ -109,6 +109,11 @@ header {
     transition: 0.5s;
   }
   
+
+  .button2:hover {
+    background-color: #1F2937;
+  }
+
   .button1:hover span {
     padding-right: 25px;
   }
@@ -124,7 +129,7 @@ header {
     background-color: white;
     color: #1F2937;
     text-align: center;
-    margin: 0px -216px;
+    margin: auto -216px;
   }
 
   .random-text {
@@ -177,12 +182,66 @@ header {
   }
 
   .main-quote {
-    margin: 60px 260px;
+    margin: 60px 260px 0px 260px;
     font-size: 2.35vw;
   }
 
   .subquote {
-    margin: 10px 230px 10px auto;
-    font-size: 1.3vw;
+    margin: 0px 230px 60px auto;
+    font-size: 1.4vw;
+    font-weight: bold;
   }
  
+  .sign-up {
+    background-color: white;
+    margin: auto -216px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-signup {
+    background-color: #3882f6;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px 15px;
+    height: 150px;
+  }
+
+  .header-signup {
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+  
+  .undertext-signup {
+    color: #e5e7eb;
+    font-size: 1.3vw;
+  }
+
+  .button2 {
+    border: 2px solid #e5e7eb;
+  }
+  
+  /* Section V */
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-side {
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-top: 10px;
+    font-size: 1.5vw;
+  }
+
+  .copyright-text {
+    margin-top: 25px;
+  }
